@@ -6,6 +6,10 @@ interface UserInterface
 {
     public function getId(): mixed;
 
+    public function setId(): void;
+
+    public function getAllData(): array;
+
     public function authenticate(string $password): bool;
 
     public function getName(): string;
