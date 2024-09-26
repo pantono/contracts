@@ -6,7 +6,7 @@ interface UserInterface
 {
     public function getId(): mixed;
 
-    public function setId(): void;
+    public function setId(?int $id): void;
 
     public function getAllData(): array;
 
