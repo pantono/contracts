@@ -9,4 +9,8 @@ interface UserInterface
     public function authenticate(string $password): bool;
 
     public function getName(): string;
+
+    public function getPassword(): string;
+
+    public function setPassword(string $password): void;
 }
