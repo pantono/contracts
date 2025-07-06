@@ -8,10 +8,10 @@ use Attribute;
 #[Attribute]
 class DateFormat
 {
-    public string $name = '';
+    public string $format = '';
 
-    public function __construct(string $name)
+    public function __construct(string $format)
     {
-        $this->name = $name;
+        $this->format = $format;
     }
 }
