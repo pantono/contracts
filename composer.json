@@ -4,7 +4,8 @@
   "type": "library",
   "require": {
     "php": ">=8.2",
-    "symfony/http-foundation": "^v6"
+    "symfony/http-foundation": "^6",
+    "psr/simple-cache": "^3.0"
   },
   "license": "proprietary",
   "autoload": {
