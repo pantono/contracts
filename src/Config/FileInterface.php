@@ -5,6 +5,7 @@ namespace Pantono\Contracts\Config;
 interface FileInterface extends \ArrayAccess, \Iterator
 {
     public function getValue(string $key, mixed $default = null): mixed;
+    public function getBooleanValue(string $key, mixed $default = null): bool;
 
     public function getAllData(): array;
 
