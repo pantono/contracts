@@ -3,7 +3,7 @@
   "description": "Contracts Module for Pantono",
   "type": "library",
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.4",
     "symfony/http-foundation": "^8",
     "psr/simple-cache": "^3.0"
   },
