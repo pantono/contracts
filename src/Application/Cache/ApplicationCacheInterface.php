@@ -6,5 +6,5 @@ use Psr\SimpleCache\CacheInterface;
 
 interface ApplicationCacheInterface extends CacheInterface
 {
-    public function getCallback(string $key, callable $callback): mixed;
+    public function getCallback(string $key, callable $callback, array $tags = []): mixed;
 }
