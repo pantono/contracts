@@ -6,10 +6,10 @@ namespace Pantono\Contracts\Attributes\Database;
 #[\Attribute]
 class ManyToMany
 {
-    private string $joinTable;
-    private string $joinColumn;
-    private string $inverseJoinColumn;
-    private string $targetModel;
+    public string $joinTable;
+    public string $joinColumn;
+    public string $inverseJoinColumn;
+    public string $targetModel;
 
     public function __construct(string $joinTable, string $joinColumn, string $inverseJoinColumn, string $targetModel)
     {
